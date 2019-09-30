@@ -112,7 +112,7 @@
         // }, function (response) { });
         return new Promise(function (resolve, reject) {
             var scrapeData = {
-                id: 'https://seangels.github.io/testing-shareFB',
+                id: 'http://stg-vn02.kyanon.digital:9000/davinci-web/Test/index.html',
                 "access_token": '397096781004346|fbf500380f4ef7cb70e1bba0b34b8ede',
                 scrape: true
             }
@@ -134,7 +134,7 @@
                 FB.ui({
                     method: 'share',
                     display: 'popup',
-                    href: 'https://seangels.github.io/testing-shareFB',
+                    href: 'http://stg-vn02.kyanon.digital:9000/davinci-web/Test/index.html',
                     hashtag: '#HelloWorld',
                     sdk: 'joey',
                 }, function (response) {});
